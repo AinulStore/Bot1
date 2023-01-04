@@ -11,7 +11,7 @@ let str = `*Hai Ngab*`
 let isi =`I'm Ainul Store Yang Di Buat Gak Niat Oleh Ainul Karena Males Recode Jadi Pake Aja Apa Yang Ada Yah.\nKalau Ada Yg Error Bisa Langsung Report Ke Owner.\n${tag} (Owner)`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.send3ButtonImg(m.chat, `https://telegra.ph/file/6411cc04828f3cc335324.jpg`, str, isi, 'Menu', '.command', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.send3ButtonImg(m.chat, `https://telegra.ph/file/19e72528f524462b72dcf.jpg`, str, isi, 'Menu', '.command', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram.com/ainul_store_',
     mediaType: 2, 
     description: urlnya,
