@@ -1,7 +1,7 @@
 const fs = require('fs')
 const fetch = require('node-fetch')
 let handler = async(m, { conn, text, usedPrefix, command }) => {
-let tag = `https://wa.me/qr/6CV5YW4QDYONC1`
+let tag = `https://wa.me/qr/2RHU35CT76JHF1`
   let mentionedJid = [m.sender]
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 let suka = `Saya Rull`
@@ -15,7 +15,7 @@ conn.send3ButtonImg(m.chat, `https://telegra.ph/file/19e72528f524462b72dcf.jpg`,
     mediaUrl: 'https://instagram.com/ainul_store_',
     mediaType: 2, 
     description: urlnya,
-    title: "Subs Yete Gw Banh:)",
+    title: "Follow Instagram Gw",
     body: wm,
     thumbnail: thumb,
     sourceUrl: 'https://instagram.com/ainul_store_'
